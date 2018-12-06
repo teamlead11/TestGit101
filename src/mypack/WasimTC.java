@@ -10,6 +10,7 @@ public class WasimTC {
 		System.out.println("greens1");
 		System.out.println("greens2");
 		System.out.println("greens3");
+		System.out.println("greens89");
 
 	}
 
