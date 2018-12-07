@@ -6,44 +6,20 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class BaseClass {
-
-	public static void main(String[] args) {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Gopi\\eclipse-workspace\\clone\\TestGit101\\driver\\chromedriver.exe");
-		WebDriver driver = new ChromeDriver();
-		driver.manage().window().maximize();
-		driver.get("https://www.facebook.com/");
-		WebElement mail = driver.findElement(By.xpath("//input[@name='email']"));
-		mail.sendKeys("gopigop84@gmail.com");
-		
-	}
-
-
-
-		int a=10,b=20,c;
-	
-	public void addBharath() {
-		
-       c=a+b;
-       System.out.println(c);
-	}
-	
-	public void gopi() {
-		
-	       c=a+b;
-	       System.out.println(c);
+	public void wasim() {		
+		String name = "WELCOME";
+		String rev = "";
+		for(int i=name.length()-1;i>=0;i--) {
+			char ch = name.charAt(i);
+			rev = rev + ch;					
 		}
+		System.out.println(rev);
 
-	{
-		
-		
-		//System.out.println("project class");
-		//System.out.println(c);
-		BaseClass bc=new BaseClass();
-	      bc.gopi();	
-	
-		
-		
 	}
 
+	public static void main(String[] args) {		
+		BaseClass bc = new BaseClass();
+		bc.wasim();
+	}
 }
 
