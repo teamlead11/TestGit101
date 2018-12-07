@@ -1,10 +1,18 @@
 package mypack;
 
-import java.util.Scanner;
-
 public class BaseClass 
 {
-	public void reversestringbyavinaash()
+	
+		public String reverseStringgopi(String str) {
+			 String res = "";
+
+			for (int i = 0; i <= str.length()-1; i++) {
+			   res = res + str.charAt(i);
+			 }
+			  return res;
+			
+	}
+	/*public void reversestringbyavinaash()
 	{
 		      String original, reverse = "";
 		      Scanner in = new Scanner(System.in);
@@ -25,7 +33,7 @@ public class BaseClass
 		BaseClass av=new BaseClass();
 		av.reversestringbyavinaash();
 	}
-		/*System.setProperty("webdriver.chrome.driver", "C:\\Users\\Gopi\\eclipse-workspace\\clone\\TestGit101\\driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Gopi\\eclipse-workspace\\clone\\TestGit101\\driver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.facebook.com/");
