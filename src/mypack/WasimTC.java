@@ -11,6 +11,15 @@ public class WasimTC {
 		System.out.println("greens2");
 		System.out.println("greens3");
 		System.out.println("greens89");
+		
+		
+		String name = "WELCOME";
+		String rev = "";
+		for(int i=name.length()-1;i>=0;i--) {
+			char ch = name.charAt(i);
+			rev = rev + ch;					
+		}
+		System.out.println(rev);
 
 	}
 
