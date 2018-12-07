@@ -9,7 +9,7 @@ public class TestCase1 {
 		add(5, 6);
 	}
 
-	public static void add(int a, int b) {
+	public static void add(long a, long b) {
 		System.out.println(a + b);
 	}
 }
