@@ -1,11 +1,24 @@
-package mypack;
+ package mypack;
 
 public class BaseClass {
-
-	public static void main(String[] args) {
+	
+	int a=10,b=20,c;
+	
+	public void addBharath() {
 		// TODO Auto-generated method stub
 
-		System.out.println("test");
+	}
+
+	public static void main(String[] args) {
+		
+		System.out.println(c=a+b);
+		System.out.println("project class");
+		System.out.println(c);
+		
+		
+	
+		
+		
 	}
 
 }
