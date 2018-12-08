@@ -4,6 +4,11 @@ import java.util.Scanner;
 
 public class BaseClass 
 {
+	public void reverseStringBySuriya() {
+		String s="suriya";
+		StringBuilder sb=new StringBuilder(s);
+		System.out.println("REVERSE STRING : "+sb.reverse().toString());
+	}
 	public void reversestringbyavinaash()
 	{
 		      String original, reverse = "";
@@ -24,6 +29,7 @@ public class BaseClass
 	{
 		BaseClass av=new BaseClass();
 		av.reversestringbyavinaash();
+		av.reverseStringBySuriya();
 	}
 		/*System.setProperty("webdriver.chrome.driver", "C:\\Users\\Gopi\\eclipse-workspace\\clone\\TestGit101\\driver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
