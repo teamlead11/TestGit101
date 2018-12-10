@@ -4,6 +4,20 @@ import java.util.Scanner;
 
 public class BaseClass 
 {
+	public void Reverse() {
+		System.out.println("Test Case Created");
+		 String original, reverse = "";
+	      Scanner in = new Scanner(System.in);
+	     
+	      System.out.println("Enter a string to reverse");
+	      original = in.nextLine();
+	      int length = original.length();
+	     
+	      for (int i = length - 1 ; i >= 0 ; i--)
+	         reverse = reverse + original.charAt(i);
+	         
+	      System.out.println("Reverse of the string: " + reverse);
+		}
 	public void reversestringbyavinaash()
 	{
 		      String original, reverse = "";
@@ -24,6 +38,7 @@ public class BaseClass
 	{
 		BaseClass av=new BaseClass();
 		av.reversestringbyavinaash();
+		av.Reverse();
 	}
 		/*System.setProperty("webdriver.chrome.driver", "C:\\Users\\Gopi\\eclipse-workspace\\clone\\TestGit101\\driver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
