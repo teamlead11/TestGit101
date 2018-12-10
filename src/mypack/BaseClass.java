@@ -3,6 +3,7 @@ package mypack;
 import java.util.Scanner;
 
 public class BaseClass {
+
 	public void reverseStringBySuriya() {
 		String s = "suriya";
 		StringBuilder sb = new StringBuilder(s);
@@ -30,6 +31,7 @@ public class BaseClass {
 		av.reversestringbyavinaash();
 		av.reverseStringBySuriya();
 		av.test1();
+		av.wasim();
 	}
 
 	/*
@@ -46,5 +48,16 @@ public class BaseClass {
 	 */
 	public void test1() {
 		System.out.println("subash");
+	}
+
+	public void wasim() {
+		String name = "WELCOME";
+		String rev = "";
+		for (int i = name.length() - 1; i >= 0; i--) {
+			char ch = name.charAt(i);
+			rev = rev + ch;
+		}
+		System.out.println(rev);
+
 	}
 }
