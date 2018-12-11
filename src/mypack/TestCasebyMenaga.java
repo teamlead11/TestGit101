@@ -1,13 +1,11 @@
 package mypack;
 
-import java.util.Scanner;
-
 public class TestCasebyMenaga 
 {
 	
 	public static void main(String[] args) 
 	{
-		
+		System.out.println("Test case deleted");
 		
 	}
 }
