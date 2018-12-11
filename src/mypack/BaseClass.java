@@ -9,6 +9,13 @@ public class BaseClass {
 		StringBuilder sb = new StringBuilder(s);
 		System.out.println("REVERSE STRING : " + sb.reverse().toString());
 	}
+	public void reverseStringGokul()
+	{
+		String s="Gokul";
+		StringBuilder rever=new StringBuilder(s);
+		StringBuilder reverse = rever.reverse();
+		System.out.println("Here you find an Reverse String:" +reverse);
+	}
 
 	public void reversestringbyavinaash() {
 		String original, reverse = "";
@@ -33,6 +40,7 @@ public class BaseClass {
 		av.test1();
 		av.wasim();
 		av.Reverse();
+		av.reverseStringGokul();
 	}
 
 	/*
